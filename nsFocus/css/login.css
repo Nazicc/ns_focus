@@ -1,0 +1,166 @@
+html, body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+img{
+	display: block;
+}
+a{
+	color: #fff;
+}
+
+.logo{
+	position: absolute;
+	top: 26px;
+	left: 37px;
+}
+.login_panel{
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -201px;
+}
+
+.nips{
+	margin: 0 0 20px 0;
+}
+
+.login_form{
+	width: 403px;
+	height: 34px;
+	background: url(../image/panel_bg.png) no-repeat;
+}
+
+.input_div{
+	float:left;
+	width:158px;
+	height:24px;
+}
+.input_div_margin{
+	margin: 5px 0 0 4px;
+}
+
+.input_txt{
+	ime-mode: disabled;
+    border: 0;
+    color: #6dadc3;
+	font-weight: 700;
+	width: 148px;
+    height: 24px;
+    line-height: 17px;
+    padding: 1px 5px 0px;
+	background: url(../image/input_txt_bg.png) no-repeat;
+}
+.holder_un{
+	cursor: text;
+    background: none repeat scroll 0 0 transparent;
+    color: #6dadc3;
+	position:absolute;
+	left: 0;
+	top: 0;
+	margin: 59px 0 0 11px;
+	visibility: visible;
+}
+.holder_pw{
+	cursor: text;
+    background: none repeat scroll 0 0 transparent;
+    color: #6dadc3;
+	position:absolute;
+	left: 0;
+	top: 0;
+	margin: 59px 0 0 173px;
+	visibility: visible;
+}
+
+.input_btn{
+	cursor: pointer;
+	float: left;
+	color: #fff;
+	border: 0;
+	width: 68px;
+	height: 24px;
+	background: url(../image/input_btn_bg.png) no-repeat;
+}
+.input_btn_margin{
+	margin: 5px 0 0 5px;
+}
+
+.sel_div{
+	width: 173px;
+	height: 17px;
+}
+
+.sel_item{
+	display: block;
+	width: 173px;
+	height: 17px;
+	cursor: pointer;
+}
+.sel_item_bg{
+	background: url(../image/sel_bg.png) no-repeat;
+}
+.sel_item_click{
+	border-bottom: 1px solid #70abbb;
+	background: url(../image/sel_bg_click.png) no-repeat;
+}
+
+.sel_lang{
+	color: #fff;
+	padding: 0 0 0 4px;
+}
+
+.item_list{
+	display: none;
+	position: fixed;
+}
+
+.sel_opt{
+	color: #fff;
+	width: 173px;
+	height: 17px;
+	cursor: pointer;
+	padding: 0 0 0 4px;
+	background: url(../image/opt_bg.png) no-repeat;
+}
+.opt_over{
+	background: url(../image/opt_bg_over.png) no-repeat;
+}
+.lst_opt{
+	background: url(../image/lst_opt_bg.png) no-repeat;
+}
+.lst_opt_over{
+	background: url(../image/lst_opt_over.png) no-repeat;
+}
+
+.prompt{
+	background: url(../image/prompt_bg.png) no-repeat;
+	width: 115px;
+	height: 22px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: 20px;
+	margin-left: -57px;
+	color: #16537a;
+	visibility: hidden;
+}
+.cross{
+	float: left;
+	margin: 4px 3px 0 17px;
+}
+.prompt_txt{
+	float: left;
+	margin: 1px 0 0 3px;
+}
+
+.copyright{
+	border: 1px solid #c0d8df;
+	padding: 6px 10px 6px 10px;
+	position: absolute;
+	bottom: 26px;
+	left: 37px;
+	color: #737d81;
+}
